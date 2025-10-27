@@ -1,0 +1,42 @@
+body {
+    color: #FFF;
+    background: linear-gradient(#374151, #111827);
+    max-width: 896px;
+    font-weight: 400;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#search {
+    background-color: rgba(31, 41, 55, 0.6);
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.articleText {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.authorName, footer p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.authorName + p {
+    font-size: 14px;
+    line-height: 28px;
+}
