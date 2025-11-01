@@ -3,6 +3,7 @@ body {
     background: linear-gradient(#374151, #111827);
     max-width: 896px;
     font-weight: 400;
+    margin: 0 auto;
 }
 
 nav a {
@@ -24,11 +25,14 @@ h1 {
     font-size: 24px;
     line-height: 38px;
     text-align: center;
+    margin: 0 0 30px;
+}
+.autor {
+    margin-bottom: 28px;
 }
 
-.articleText {
-    font-size: 20px;
-    line-height: 32px;
+figure {
+    margin: 0 0 70px;
 }
 
 .authorName, footer p {
@@ -39,4 +43,32 @@ h1 {
 .authorName + p {
     font-size: 14px;
     line-height: 28px;
+}
+
+header {
+    padding: 70px 0;
+}
+#search {
+    height: 40px;
+    width: 224px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding-left: 50px;
+}
+
+.articleText {
+    font-size: 20px;
+    line-height: 32px;
+    margin:0 0 30px;
+}
+
+.articleText2 {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+}
+
+footer p {
+    margin: 77px 0;
 }
